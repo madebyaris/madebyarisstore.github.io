@@ -1,0 +1,32 @@
+{
+  "name": "imfine-web-store",
+  "version": "1.0.0",
+  "description": "web app untuk list produk2 dari imfine",
+  "keywords": [
+    "store",
+    "commerce"
+  ],
+  "author": "Aris Setiawan",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.17.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.3.2"
+  },
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madebyaris/madebyarisstore.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/madebyaris/madebyarisstore.github.io/issues"
+  },
+  "homepage": "https://github.com/madebyaris/madebyarisstore.github.io#readme"
+}

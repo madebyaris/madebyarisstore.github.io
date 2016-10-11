@@ -1,0 +1,29 @@
+{
+  "name": "imfine-web-store",
+  "description": "web app untuk list produk2 dari imfine",
+  "main": "",
+  "authors": [
+    "Aris Setiawan"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "store",
+    "commerce"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "vue": "^2.0.1",
+    "font-awesome": "font-awsome#^4.6.3"
+  },
+  "devDependencies": {
+    "bootstrap-material-design": "^4.0.2"
+  }
+}
