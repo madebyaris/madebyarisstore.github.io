@@ -15,7 +15,7 @@ gulp.task('css', function(){
 	return gulp.src(
 		[
 		config.bowerDir + '/font-awesome/scss/font-awesome.scss',
-		config.bowerDir + '/bootstrap/scss/bootstrap-grid.scss',
+		config.bowerDir + '/bootstrap/scss/bootstrap.scss',
 		'src/sass/*.scss'
 		])
 	.pipe( gulpSass({outputStyle: 'compressed'}).on('error', gulpSass.logError) )

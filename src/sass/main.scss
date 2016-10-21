@@ -1,3 +1,25 @@
-html{
-	background-color:#fff;
+/*
+	default variabel
+*/
+
+
+$logo-font : 'Tangerine', cursive;
+$default-font :'Josefin Sans', sans-serif;
+
+
+html, body{
+	background-color:rgb(252, 252, 252);
+	margin:0px;
 }
+
+body{
+	font-family: $default-font;
+	font-size:16px;
+}
+
+#main{ //body
+	margin-top: 1.5rem;
+}
+
+@import "header";
+@import "item";
