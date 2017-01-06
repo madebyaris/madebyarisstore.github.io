@@ -7,7 +7,7 @@ var browserSync		= require('browser-sync');
 
 
 var config = {
-	bowerDir: './bower_components' 
+	bowerDir: './bower_components'
 }
 
 //convert sass to css
